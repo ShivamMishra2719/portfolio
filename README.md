@@ -1,12 +1,46 @@
-# React + Vite
+# 💼 Shivam Mishra's Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! This project showcases my skills, projects, and experience as a full-stack developer. It is built using modern web technologies and designed to be responsive, clean, and fast.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🚀 Technologies Used
+
+- **Frontend**: React 
+- **Styling**: Tailwind CSS / 
+- **Deployment**: GitHub Pages / Netlify
+- **Tools**: VS Code, Git, GitHub
+
+## 📂 Folder Structure
+
+portfolio/
+├── public/
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── assets/
+│ └── App.js
+├── README.md
+├── package.json
+└── ...
+
+
+## 🧑‍💻 Features
+
+- About Me section
+- Project showcase with links to GitHub
+- Resume/CV download
+- Contact form or social media links
+- Mobile-responsive design
+- Light/Dark mode (if applicable)
+
+## 🛠️ Setup Instructions
+
+```bash
+git clone https://github.com/ShivamMishra2719/portfolio.git
+cd portfolio
+npm install
+npm start
