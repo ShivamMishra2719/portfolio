@@ -6,7 +6,7 @@ import Python from "../assets/Python.png";
 import Javascript from "../assets/Javascript.png";
 
 import TailwindCSS from "../assets/TailwindCSS.png";
-import react from "../assets/react.png";
+import react from "../assets/React.png";
 import mongodb from "../assets/mongodb.png"
 import nodejs from "../assets/nodejs.png"
 import ecom from "../assets/universal.png"
