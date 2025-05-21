@@ -1,13 +1,6 @@
-const Img_prop = ({ img }) => {
-  const getTitle = (imgPath) => {
-    const parts = imgPath.split('/');
-    const filename = parts[parts.length - 1];
-    return filename.split('.')[0]; // e.g. "html.png" → "html"
-  };
+const Img_prop = ({ img, title }) => {
+  const upperTitle = title.toUpperCase();
 
-  const title = getTitle(img).toUpperCase();
-
-  // Tailwind-safe full class string for each tech
   const classMap = {
     HTML: "border-orange-500 shadow-orange-500",
     CSS: "border-blue-500 shadow-blue-500",
@@ -20,10 +13,13 @@ const Img_prop = ({ img }) => {
     NODEJS: "border-green-600 shadow-green-600",
     MONGODB: "border-green-400 shadow-green-400",
     SQL: "border-orange-400 shadow-orange-400",
-    GITHUB: "border-gray-400 shadow-gray-400"
+    GITHUB: "border-gray-400 shadow-gray-400",
+    PYTHON: "border-yellow-300 shadow-yellow-300",
+    JAVA: "border-red-500 shadow-red-500",
+    AWS: "border-orange-400 shadow-orange-400",
   };
 
-  const cardClasses = classMap[title] || "border-slate-500 shadow-slate-500";
+  const cardClasses = classMap[upperTitle] || "border-slate-500 shadow-slate-500";
 
   return (
     <div
@@ -32,7 +28,7 @@ const Img_prop = ({ img }) => {
       shadow-lg hover:scale-105 transition-transform duration-300 ${cardClasses}`}
     >
       <img src={img} alt={title} className="w-[40px] sm:w-[50px] md:w-[60px]" />
-      <p className="mt-2 text-sm sm:text-base text-gray-300">{title}</p>
+      <p className="mt-2 text-sm sm:text-base text-gray-300">{upperTitle}</p>
     </div>
   );
 };

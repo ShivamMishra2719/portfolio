@@ -37,38 +37,19 @@ const Skills = () => {
           data-aos="zoom-out-up"
         >
          
-          <Image img={HTML}></Image>
-          
+        <Image img={HTML} title="HTML" />
+        <Image img={CSS} title="CSS" />
+        <Image img={Javascript} title="JAVASCRIPT" />
+        <Image img={react} title="REACTJS" />
+        <Image img={TailwindCSS} title="TAILWIND" />
+        <Image img={mongodb} title="MONGODB" />
+        <Image img={Java} title="JAVA" />
+        <Image img={nodejs} title="NODEJS" />
+        <Image img={Python} title="PYTHON" />
+        <Image img={next} title="NEXTJS" />
+        <Image img={AWS} title="AWS" />
+        <Image img={Github} title="GITHUB" />
 
-         
-          <Image img={CSS}></Image>
-        
-          <Image img={Javascript}></Image>
-        
-          <Image img={react}></Image>
-        
-          
-          <Image img={TailwindCSS}></Image>
-       
-         
-          <Image img={mongodb}></Image>
-         
-         
-          <Image img={Java}></Image>
-         
-          <Image img={nodejs}></Image>
-  
-          <Image img={Python}></Image>
-          
-         
-          <Image img={next}></Image>
-        
-       
-         
-          <Image img={AWS}></Image>
-       
-        
-          <Image img={Github}></Image>
        
          
         </div>
