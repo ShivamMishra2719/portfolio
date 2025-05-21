@@ -2,8 +2,6 @@ import {
   HTML,
   CSS,
   Github,
-  Git,
-  Vite,
   TailwindCSS,
   react,
   Python,
@@ -12,7 +10,6 @@ nodejs,
   Java,
   next,
   AWS,
-  C,
   mongodb
 } from "../constants/Constants";
 
