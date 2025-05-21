@@ -1,5 +1,5 @@
 import Lottie from "lottie-react";
-import education from "../assets/lottie/education.json";
+import education from "../assets/lottie/Education.json";
 
 import scet from "../assets/scet.jpg";
 
