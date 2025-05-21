@@ -14,7 +14,7 @@ const Education = () => {
   return (
     <section
       id="education"
-      className="EXPERIENCE p-5 mx-20 mb-10 min-h-screen font-['Poppins']  max-sm:p-2 max-sm:mx-5"
+      className="EXPERIENCE p-5 mx-20 mb-10  font-['Poppins'] max-sm:p-2 max-sm:mx-5"
     >
       <div className="WRAPPER mt-10">
         <h1 className="text-[#00040f] dark:text-slate-300 text-center font-extrabold text-5xl mb-5 max-sm:text-4xl   ">
