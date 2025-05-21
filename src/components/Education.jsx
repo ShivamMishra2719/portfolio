@@ -14,15 +14,15 @@ const Education = () => {
   return (
     <section
       id="education"
-      className="EXPERIENCE p-5 mx-20 mb-10  font-['Poppins'] max-sm:p-2 max-sm:mx-5"
+      className="EXPERIENCE p-5 mx-auto mb-10  font-['Poppins'] max-sm:p-2 max-sm:mx-5 overflow-x-hidden"
     >
       <div className="WRAPPER mt-10">
-        <h1 className="text-[#00040f] dark:text-slate-300 text-center font-extrabold text-5xl mb-5 max-sm:text-4xl   ">
+        <h1 className="text-[#00040f] dark:text-slate-300 text-center font-extrabold text-5xl mb-5 max-sm:text-4xl">
           Education
         </h1>
 
         <div
-          className="EDUCATION flex flex-wrap gap-7 justify-between items-center flex-row max-sm:flex-col"
+            className="EDUCATION flex flex-wrap gap-7 justify-center items-center flex-row max-sm:flex-col"
           data-aos="fade-right"
         >
           <div className="max-w-[520px] mt-[52px] p-7 max-sm:p-3">
